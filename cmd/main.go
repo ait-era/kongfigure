@@ -12,7 +12,7 @@ func main() {
 
 	app := cli.NewApp()
 	app.Name = "Kongfigure"
-	app.Usage = "Tool to configure Kong services, routes and plugins."
+	app.Usage = "Tool to configure Kong resources."
 	app.Version = "0.1.0"
 
 	app.Flags = []cli.Flag{
